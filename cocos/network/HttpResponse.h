@@ -114,7 +114,7 @@ public:
         return _responseCode;
     }
 
-    /** Get the rror buffer which will tell you more about the reason why http request failed
+    /** Get the error buffer which will tell you more about the reason why http request failed
      */
     inline const char* getErrorBuffer()
     {
